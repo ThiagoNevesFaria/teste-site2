@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(34, 34, 34);
+}
+h1{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+#p1{
+    color: hsl(0, 100%, 50%);
+}
+#p2{
+    color: orangered;
+}
+#p3{
+    color: yellow;
+}
+.font1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.font2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 30px;
+}
+

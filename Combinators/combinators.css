@@ -1,0 +1,15 @@
+#container{
+    border: 2px solid;
+}
+#container p{  /*acessa todos filhos*/
+    background-color: aqua;
+}
+#container > p{  /*acessa todos filhos diretos*/
+    font-size: 30px;
+}
+#container ~ p{  /*acessa irmaos*/
+    background-color: rgb(199, 141, 226);
+}
+#container + p{  /*acessa irmao mais proximo*/
+    font-family: Impact;
+}

@@ -1,0 +1,26 @@
+h1::first-letter{      /*pseudo element do h1 (primeira letra)*/
+    font-size: 2em;
+}
+p::first-line{         /*pseudo element do paragrafo (primeira linha)*/
+    background-color: rgb(44, 185, 138);
+}
+p::selection{          /*pseudo element do paragrafo (selecao)*/
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 55, 51);
+}
+#fruit li::before{
+    content: "✅";
+}
+#apple::after{
+    content: "🍎";
+}
+#orange::after{
+    content: "🍊";
+}
+#banana::after{
+    content: "🍌";
+}
+#fruit li::marker{
+    content:"✔️" ;
+    font-size: 1.5em;
+}

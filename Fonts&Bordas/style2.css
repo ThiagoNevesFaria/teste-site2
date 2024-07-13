@@ -1,0 +1,31 @@
+h1{
+    font-family: "Protest Strike", Verdana, Arial;
+    border-style:double;
+    border-width: 10px;
+    border-color: hsl(22, 78%, 45%);
+    border-radius: 20px;
+       
+}
+p{
+    font-family: "Protest Strike", "Lucida console", "courier new";
+    font-size: 1.5em;
+    border-bottom: 3px solid red;
+    border-top: 3px solid yellow;
+    border-left:  2px solid orange;
+    border-right: 2px solid green;
+    border-radius: 10px;
+    
+    
+}
+h2{
+    text-shadow: 2px 2px 2px rgb(69, 82, 85);
+    border-bottom: 3px solid red;
+    
+    
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    box-shadow: 3px 3px 5px;
+}

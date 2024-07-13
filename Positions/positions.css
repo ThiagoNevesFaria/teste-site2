@@ -1,0 +1,18 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color:hsl(199, 57%, 50%);
+    position: relative;
+    
+    
+    
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color:hsl(276, 57%, 50%);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+}

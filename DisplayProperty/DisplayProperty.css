@@ -1,0 +1,22 @@
+div{
+    background-color: rgb(72, 255, 0);
+    width: 200px;
+    height: 100px;
+    display: block;
+}
+span{
+    background-color: rgb(176, 103, 194);
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+#div2{
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+#span2{
+    font-size: 30px;
+    display: inline;
+}

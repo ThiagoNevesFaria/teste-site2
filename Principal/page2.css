@@ -1,0 +1,27 @@
+body{
+   
+    background-image: url(R.jpg)
+}
+h1{
+    color: aliceblue;
+    font-size: 5em;
+}
+.pagination{
+    padding: 90px;
+    text-align: center;
+}
+.pagination a{
+    padding: 8px 25px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+}
+.pagination a.active{
+    background-color: rgb(7, 131, 24);
+    font-weight: bold;
+    border-radius: 15px;
+}
+.pagination a:hover:not(.active){       /*se nao e o class active, quando hover*/
+    background-color: rgb(79, 82, 82);
+    border-radius: 15px;
